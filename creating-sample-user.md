@@ -1,3 +1,10 @@
+# Deploying the Dashboard UI
+The Dashboard UI is not deployed by default. To deploy it, run the following command:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+```
+
 # Creating sample user
 
 In this guide, we will find out how to create a new user using the Service Account mechanism of Kubernetes, grant this user admin permissions and login to Dashboard using a bearer token tied to this user.
